@@ -8,6 +8,9 @@
     min-height: 1300px;
     
 }
+.btn{
+    background-color: white;
+}
 button{
     border: none;
 }
@@ -67,13 +70,16 @@ justify-content: space-between;
     border-radius: 15px;
     width: 90%;
     margin-left: 50px;
-    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(136, 133, 133, 0.75);
     /* margin: auto; */
 }
 .row .text{
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+.row .text h2{
+    padding-bottom: 15px;
 }
 .row .pic{
     margin-top: 40px;
@@ -113,7 +119,59 @@ justify-content: space-between;
     margin-top: 170px;
     
 }
+.one ul li{
+    list-style: none;
+}
 .one{
    padding: 10px 20px;
    margin-left: 30px;
+}
+.ono{
+    display: flex;
+    padding-top: 10px;
+}
+.ono p{
+    margin-left: 10px;
+}
+.icon{
+    padding: 20px;
+    
+}
+.icon i{
+    margin-left: 10px;
+}
+
+.copy{
+    color: white;
+    float: right;
+    margin-right: 30px;
+    padding-top: 49px;
+}
+
+@media screen and (max-width: 960px){
+.foot1{
+    left: 169px;
+}
+.foot1 h1{
+    font-size: 15px;
+}
+
+}
+@media screen and (max-width: 450px){
+.foot1{
+    left: 169px;
+}
+.foot1 h1{
+    font-size: 15px;
+}
+.wrapper{
+    margin: 0;
+}
+.row{
+    margin: 15px;
+
+}
+.top-section{
+    padding-left: 10px;
+}
 }
